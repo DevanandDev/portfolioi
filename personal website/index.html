@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deva</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9vHlh3hdVvxjPx_I9",
+      });
+   })();
+</script>
+</head>
+<body>
+
+    <div class="section-1" id="Home">
+    <div class="nav">
+        <div class="logo">PoRtFoLiO</div>
+        <div class="butt">
+            <a type="button" href="#Home" class="btn"><h6>Home</h6></a>
+              <a type="button" href="#About" class="btn"><h6>About</h6></a>
+              <a type="button" href="#Skills" class="btn"><h6>Skills</h6></a>
+              <a type="button" href="#Contact" class="btn"><h6>Contact</h6></a>
+        </div>
+    </div>
+  
+
+    <div class="body">
+      <img src="images/img1.png" width="300px" height="300px" class="main">
+        <div class="content">
+            <h4>Hi,I'm</h4>
+            <h1 class="pp">Devanand</h1>
+            <p ><b>Full Stack Developer</p>
+            <img src="images/whatsapp.png" width="20px" height="20px">
+           <a href="https://www.instagram.com/devanand_____/"><img src="images/instagram.png" width="20px" height="20px"></a>
+            <a href="https://www.facebook.com/devanand.vishnu.10"><img src="images/social.png" width="25px" height="25px"></a>
+        </div>
+    </div>
+    </div>
+    <div class="me" id="About"><u>About</u></div>
+
+     <div class="about">
+      <div class="img-2">
+        <img src="images/img4.png" width="250px" height="290px">
+      </div>
+        <!-- <h1 class="about-1">About Me</h1> -->
+        <p class="para">
+          
+            Hello! I'm <span class="highlight">DEVANAND</span>, a passionate <span class="highlight">Full Stack Developer</span> 
+            with a knack for crafting efficient, user-friendly applications. With expertise in modern web technologies 
+            like <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, <span class="highlight">JavaScript</span>, 
+            and frameworks like <span class="highlight">React</span> and <span class="highlight">Node.js</span>, I enjoy 
+            building solutions that make a difference.
+          <br><br>
+            I am constantly learning and evolving, and I thrive on solving complex problems through clean and maintainable 
+            code. When I'm not coding, you'll find me exploring new technologies or diving into creative hobbies.
+          </p>
+     </div>
+    
+      <div class="skill" id="Skills" >
+        <h1 class="ps"><u>Skills<Skills></u></h1>
+      <div class="hcj">
+        <li><h3>HTML</h3>
+            <span class="bar"><span class="html"></span></span>
+        </li>
+      
+        <li><h3>CSS</h3>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+
+        <li><h3>JavaScript</h3>
+          <span class="bar"><span class="JavaScript"></span></span>
+        </li>
+      </div>
+    </div>
+    <h1 class="h-1"><u>Contact</u></h1>
+     <div class="contacts" id="Contact">
+     <div class="col-md-6 py-3">
+      <div class="form group">
+        <h5 for="name">Name</h5>
+        <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+      </div>
+      <div class="form group">
+        <h5 for="email">Email</h5>
+        <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+      </div>
+      <div class="form group">
+        <h5 for="message">Message</h5>      
+         <textarea id="message" rows="3" class="form-control"></textarea>
+       </div>
+       <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+      </div>
+    
+    </div>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p aria-label="Copyright Notice">© 2024 Devanand. All Rights Reserved.</p>
+        <p class="mb-0">Built with using Bootstrap</p>
+    </div>
+</footer>
+   
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+     <script src="js/bootstrap.js"></script>
+</body>
+</html>
